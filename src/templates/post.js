@@ -106,18 +106,7 @@ export const pageQuery = graphql`
       slug
       content
       date(formatString: "MMMM DD, YYYY")
-      categories {
-        name
-        slug
-      }
-      tags {
-        name
-        slug
-      }
-      author {
-        name
-        slug
-      }
+     
     }
   }
 `

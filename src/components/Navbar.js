@@ -22,9 +22,10 @@ const Navbar = () => (
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item">
-              <figure className="image">
+              {/* <figure className="image">
                 <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-              </figure>
+              </figure> */}
+              <h2>Freedom</h2>
             </Link>
           </div>
           <div className="navbar-start">

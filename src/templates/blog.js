@@ -9,10 +9,10 @@ export default class IndexPage extends React.Component {
   render() {
     const { data, pageContext } = this.props
     const { edges: posts } = data.allWordpressPost
-
+console.log(pageContext)
     return (
       <Layout>
-        <PostList posts={posts} title="Latest posts" />
+        <PostList posts={posts} title="Latest Stories" />
         <Pagination pageContext={pageContext} pathPrefix="/" />
       </Layout>
     )
